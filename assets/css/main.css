@@ -89,13 +89,16 @@ a:after {
 
 #headerwrap h1 {
 	font-size: 60px;
-	color: #778899;
+	color: white;
     text-shadow: 1px 2px grey;
+	padding-left: 680px;
+    padding-top: 140px;
 }
 
 #headerwrap h3 {
 	font-size: 20px;
 	color: white;
+	padding-left: 680px;
 }
 
 /* Global Values */
