@@ -152,3 +152,10 @@ a:after {
 sm {
 	font-size: 12px;
 }
+
+.blog-container {
+    display: flex; 
+    flex-direction: column; /*or row depending on desired layout */
+    align-items: center; /* align items horizontally in the container */ 
+    justify-content: space-around; /*spreads the blog post evenly in the container */
+}
