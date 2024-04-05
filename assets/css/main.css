@@ -6,214 +6,286 @@
  * URL: http://blacktie.co
  */
 
-@import url('typography.css');
-@import url('navigation.css');
-@import url('intro.css');
-@import url('skills.css');
-@import url('footer.css');
+ @import url('typography.css');
+ @import url('navigation.css');
+ @import url('intro.css');
+ @import url('skills.css');
+ @import url('footer.css');
 
-body {
-  background-color: #f2f2f2;
-    font-family: "Lato";
-    font-weight: 300;
-    font-size: 16px;
-    color: #555;
+ body {
+     background-color: #f2f2f2;
+     font-family: "Lato";
+     font-weight: 300;
+     font-size: 16px;
+     color: #555;
 
-    -webkit-font-smoothing: antialiased;
-    -webkit-overflow-scrolling: touch;
-}
+     -webkit-font-smoothing: antialiased;
+     -webkit-overflow-scrolling: touch;
+ }
 
 
-/* Links */
-a {
-    color: #f85c37;
-    word-wrap: break-word;
+ /* Links */
+ a {
+     color: #f85c37;
+     word-wrap: break-word;
 
-    -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
-    -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
-    -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
-    -o-transition: color 0.1s ease-in, background 0.1s ease-in;
-    transition: color 0.1s ease-in, background 0.1s ease-in;
-}
+     -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
+     -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
+     -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
+     -o-transition: color 0.1s ease-in, background 0.1s ease-in;
+     transition: color 0.1s ease-in, background 0.1s ease-in;
+ }
 
-a:hover,
-a:focus {
-    color: #7b7b7b;
-    text-decoration: none;
-    outline: 0;
-}
+ a:hover,
+ a:focus {
+     color: #7b7b7b;
+     text-decoration: none;
+     outline: 0;
+ }
 
-a:before,
-a:after {
-    -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
-    -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
-    -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
-    -o-transition: color 0.1s ease-in, background 0.1s ease-in;
-    transition: color 0.1s ease-in, background 0.1s ease-in;
-}
+ a:before,
+ a:after {
+     -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
+     -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
+     -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
+     -o-transition: color 0.1s ease-in, background 0.1s ease-in;
+     transition: color 0.1s ease-in, background 0.1s ease-in;
+ }
 
  hr {
-    display: block;
-    height: 1px;
-    border: 0;
-    border-top: 1px solid #ccc;
-    margin: 1em 0;
-    padding: 0;
-}
+     display: block;
+     height: 1px;
+     border: 0;
+     border-top: 1px solid #ccc;
+     margin: 1em 0;
+     padding: 0;
+ }
 
-/*---------------------------------------------------
+ /*---------------------------------------------------
 	SECTION WRAPS
 ---------------------------------------------------*/
 
-/* Header Wrap */
-#headerwrap {
-	background: url(../img/indexPage-bg.jpg) no-repeat center top;
-	margin-top: 55px;
-	padding-top:140px;
-	text-align:center;
-	background-attachment: relative;
-	background-position: center center;
-	min-height: 800px;
-	width: 100%;
-	
-    -webkit-background-size: 100%;
-    -moz-background-size: 100%;
-    -o-background-size: 100%;
-    background-size: 100%;
+ /* Header Wrap */
+ #headerwrap {
+     background: url(../img/indexPage-bg.jpg) no-repeat center top;
+     margin-top: 55px;
+     padding-top: 140px;
+     text-align: center;
+     background-attachment: relative;
+     background-position: center center;
+     min-height: 800px;
+     width: 100%;
 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-}
+     -webkit-background-size: 100%;
+     -moz-background-size: 100%;
+     -o-background-size: 100%;
+     background-size: 100%;
 
-#headerwrap-blog {
-	background: url(../img/blog-bg.jpg) no-repeat center top;
-	margin-top: 55px;
-	padding-top:140px;
-	text-align:center;
-	background-attachment: relative;
-	background-position: center center;
-	min-height: 800px;
-	width: 100%;
-	
-    -webkit-background-size: 100%;
-    -moz-background-size: 100%;
-    -o-background-size: 100%;
-    background-size: 100%;
+     -webkit-background-size: cover;
+     -moz-background-size: cover;
+     -o-background-size: cover;
+     background-size: cover;
+ }
 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-}
+ /* Header Wrap for mobile*/
+ @media screen and (max-width: 600px) {
+     #headerwrap {
+         background: url(../img/indexPage-bg.jpg) no-repeat center top;
+         margin-top: 0px;
+         padding-top: 140px;
+         text-align: center;
+         background-attachment: relative;
+         background-position: center center;
+         min-height: 800px;
+         width: 100%;
 
-#headerwrap h1 {
-	font-size: 60px;
-	color: white;
-    text-shadow: 1px 2px grey;
-	padding-left: 680px;
-    padding-top: 140px;
-}
+         -webkit-background-size: 100%;
+         -moz-background-size: 100%;
+         -o-background-size: 100%;
+         background-size: 100%;
 
-@media screen and (max-width: 600px) {
-    #headerwrap h1 {
-        font-size: 60px;
-        font-weight: bold;
-        color: white;
-        text-shadow: 1px 2px grey;
-        padding-left: 0px !important;
-        padding-top: 140px;
-    }
-}
+         -webkit-background-size: cover;
+         -moz-background-size: cover;
+         -o-background-size: cover;
+         background-size: cover;
+     }
+ }
 
-#headerwrap h3 {
-	font-size: 20px;
-	color: white;
-	padding-left: 680px;
-}
+ #headerwrap-blog {
+     background: url(../img/blog-bg.jpg) no-repeat center top;
+     margin-top: 55px;
+     padding-top: 140px;
+     text-align: center;
+     background-attachment: relative;
+     background-position: center center;
+     min-height: 820px;
+     width: 100%;
 
-@media screen and (max-width: 600px) {
-    #headerwrap h3 {
-        font-size: 20px;
-        font-weight: bold;
-        color: white;
-        padding-left: 0px !important;
-    }
-}
+     -webkit-background-size: 100%;
+     -moz-background-size: 100%;
+     -o-background-size: 100%;
+     background-size: 100%;
 
+     -webkit-background-size: cover;
+     -moz-background-size: cover;
+     -o-background-size: cover;
+     background-size: cover;
+ }
 
-/* Global Values */
+ /* headerwrap blog for mobile  */
+ @media screen and (max-width: 600px) {
+     #headerwrap-blog {
+         background: url(../img/blog-bg.jpg) no-repeat center top;
+         margin-top: 0px;
+         padding-top: 140px;
+         text-align: center;
+         background-attachment: relative;
+         background-position: center center;
+         min-height: 820px;
+         width: 100%;
 
-.desc {
-	padding-top: 50px;
-}
+         -webkit-background-size: 100%;
+         -moz-background-size: 100%;
+         -o-background-size: 100%;
+         background-size: 100%;
 
-.desc p {
-	color: #2f2f2f;
-}
+         -webkit-background-size: cover;
+         -moz-background-size: cover;
+         -o-background-size: cover;
+         background-size: cover;
+     }
+ }
 
-.desc t {
-	color: #34495e;
-	font-weight: 700;
-}
+ #headerwrap h1 {
+     font-size: 60px;
+     color: white;
+     text-shadow: 1px 2px grey;
+     padding-left: 680px;
+     padding-top: 140px;
+ }
 
-.desc imp {
-	padding: 6px;
-	color: white;
-	background: #34495e;
-}
+ @media screen and (max-width: 600px) {
+     #headerwrap h1 {
+         font-size: 60px;
+         font-weight: bold;
+         color: white;
+         text-shadow: 1px 2px grey;
+         padding-left: 0px !important;
+         padding-top: 140px;
+     }
+ }
 
-.desc more {
-    color: #7b7b7b;
-	/*color: #95a5a6;*/
-}
+ #headerwrap h3 {
+     font-size: 20px;
+     color: white;
+     padding-left: 680px;
+ }
 
-
-sm {
-	font-size: 12px;
-}
-
-.blog-container {
-    display: flex; 
-    flex-direction: column; /*or row depending on desired layout */
-    align-items: center; /* align items horizontally in the container */ 
-    justify-content: space-around; /*spreads the blog post evenly in the container */
-}
-
-
-@media screen and (max-width: 600px) {
-    h1 {
-        font-size: 5vw !important;
-      }
-    }
-
-@media screen and (max-width: 600px) {
-    h2 {
-        font-size: 4vw !important;
-        }
-    }
+ @media screen and (max-width: 600px) {
+     #headerwrap h3 {
+         font-size: 20px;
+         font-weight: bold;
+         color: white;
+         padding-left: 0px !important;
+     }
+ }
 
 
-    
-@media screen and (max-width: 600px) {
-    h5 {
-        font-size: 3vw !important;
-        }
-    }
+ /* Global Values */
 
-@media screen and (max-width: 600px) {
-    .container {
-      padding-right: auto;
-      padding-left: auto;
-      margin-right: auto;
-      margin-left: auto;
-    }
-  }
+ .desc {
+     padding-top: 50px;
+ }
 
-@media screen and (max-width: 600px) {
-  img {
-    max-width: 100%; 
-    height: auto;
-  }
-}
+ .desc p {
+     color: #2f2f2f;
+ }
+
+ .desc t {
+     color: #34495e;
+     font-weight: 700;
+ }
+
+ .desc imp {
+     padding: 6px;
+     color: white;
+     background: #34495e;
+ }
+
+ .desc more {
+     color: #7b7b7b;
+     /*color: #95a5a6;*/
+ }
+
+
+ sm {
+     font-size: 12px;
+ }
+
+ .blog-container {
+     display: flex;
+     flex-direction: column;
+     /*or row depending on desired layout */
+     align-items: center;
+     /* align items horizontally in the container */
+     justify-content: space-around;
+     /*spreads the blog post evenly in the container */
+ }
+
+
+ @media screen and (max-width: 600px) {
+     h1 {
+         font-size: 5vw !important;
+     }
+ }
+
+ @media screen and (max-width: 600px) {
+     h2 {
+         font-size: 4vw !important;
+     }
+ }
+
+
+
+ @media screen and (max-width: 600px) {
+     h5 {
+         font-size: 3vw !important;
+     }
+ }
+
+ @media screen and (max-width: 600px) {
+     .container {
+         padding-right: auto;
+         padding-left: auto;
+         margin-right: auto;
+         margin-left: auto;
+     }
+ }
+
+ @media screen and (max-width: 600px) {
+     img {
+         max-width: 100%;
+         height: auto;
+     }
+ }
+
+ @media screen and (max-width: 600px) {
+     .navbar-toggle {
+         position: relative;
+         float: right;
+         padding: 9px 10px;
+         margin-top: 8px;
+         margin-right: 5px;
+         margin-bottom: 8px;
+         background-color: transparent;
+         /* border: 1px solid transparent; */
+         border-radius: 4px;
+     }
+ }
+
+ @media screen and (max-width: 600px) {
+     .row {
+         margin-right: 0px;
+         margin-left: 0px;
+     }
+ }
