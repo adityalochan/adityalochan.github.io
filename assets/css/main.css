@@ -224,7 +224,7 @@
 
  .blog-container {
      display: flex;
-     flex-direction: column;
+     flex-direction: row;
      /*or row depending on desired layout */
      align-items: center;
      /* align items horizontally in the container */
