@@ -67,7 +67,7 @@
 
  /* Header Wrap */
  #headerwrap {
-     background: url(../img/indexPage-bg.jpg) no-repeat center top;
+     /* background: url(../img/indexPage-bg.jpg) no-repeat center top; */
      margin-top: 55px;
      padding-top: 140px;
      text-align: center;
@@ -90,7 +90,7 @@
  /* Header Wrap for mobile*/
  @media screen and (max-width: 600px) {
      #headerwrap {
-         background: url(../img/indexPage-bg.jpg) no-repeat center top;
+         /* background: url(../img/indexPage-bg.jpg) no-repeat center top; */
          margin-top: 0px;
          padding-top: 140px;
          text-align: center;
