@@ -90,7 +90,7 @@
  /* Header Wrap for mobile*/
  @media screen and (max-width: 600px) {
      #headerwrap {
-         /* background: url(../img/indexPage-bg.jpg) no-repeat center top; */
+         background: url(../img/indexPage-bg.jpg) no-repeat center top;
          margin-top: 0px;
          padding-top: 140px;
          text-align: center;
@@ -112,13 +112,14 @@
  }
 
  #headerwrap-blog {
-     background: no-repeat center top;
-     /* margin-top: 55px; */
-     /* padding-top: 140px; */
-     /* text-align: center; */
+    background: url(../img/blog-bg.jpg) no-repeat center top;
+     /* background: no-repeat center top; */
+     margin-top: 55px;
+     padding-top: 140px;
+     text-align: center;
      background-attachment: relative;
      background-position: center center;
-     min-height: 820px;
+     min-height: 550px;
      width: 100%;
 
      -webkit-background-size: 100%;
@@ -135,12 +136,13 @@
  /* headerwrap blog for mobile  */
  @media screen and (max-width: 600px) {
      #headerwrap-blog {
-         /* margin-top: 0px; */
-         /* padding-top: 140px; */
-         /* text-align: center; */
+        background: url(../img/blog-bg.jpg) no-repeat center top;
+        margin-top: 0px;
+        padding-top: 140px;
+        text-align: center;
          background-attachment: relative;
          background-position: center center;
-         min-height: 820px;
+         min-height: 550px;
          width: 100%;
 
          -webkit-background-size: 100%;
