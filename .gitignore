@@ -1,0 +1,12 @@
+# JetBrains IDE files
+.idea/
+*.iml
+
+# macOS
+.DS_Store
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
